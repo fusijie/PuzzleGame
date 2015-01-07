@@ -31,7 +31,7 @@ bool HelloWorld::init()
     Size visibleSize = Director::getInstance()->getVisibleSize();
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
 
-    auto photo = CuttingPhotos::create("turtle.jpg", 3, 3);
+    auto photo = CuttingPhotos::create("turtle.jpg", 5, 5);
     auto photoSize = photo->getContentSize();
     photo->setPosition(origin.x + visibleSize.width/2 - photoSize.width/2,
                        origin.y + visibleSize.height/2 - photoSize.height/2);
